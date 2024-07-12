@@ -1,0 +1,99 @@
+
+/* header styles */
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+
+/* styles for the large picture */
+figure{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure img{
+    box-shadow: 5px 5px 10px rgb(97, 99, 99);
+    border: 1px rgb(110, 66, 26) solid;
+}
+
+/* change font size for caption of large picture */
+figcaption{
+    font-size: 24px;
+}
+
+
+li{
+    list-style-type: none;
+    float: left; 
+}
+
+
+
+.pictures-list{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 0;
+
+    overflow-x: hidden;
+
+    width: 1200px;
+    border: 5px black solid;
+    box-shadow: 1px 1px 5px rgb(179, 176, 176);
+    
+
+}
+
+/*  */
+/* Styles for prev and next buttons. As well as positioning. */
+#button-previous{
+    background-color: rgb(75, 75, 75);
+    color: whitesmoke;
+    /* padding: 10px 0px; */
+    position: absolute;
+    left: 30px;
+    top: 85px;
+    scale: 1.5;
+    opacity: 0.75;
+
+}
+
+#button-next{
+    background-color: rgb(75, 75, 75);
+    color: whitesmoke;
+    position: absolute;
+    right: 30px;
+    top: 85px;
+    scale: 1.5;
+    opacity: 0.75;
+}
+
+#button-previous:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#button-next:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+button{
+    box-shadow: 1px 1px 5px white;
+}
+
+
+
+/* style and position section that holds the slideshow of pictures... */
+.image-slider{
+    position: relative;
+    /* background-color: black; */
+
+    margin: 0px 100px;
+    /* padding: 0px 25px; */
+    display: flex;
+    justify-content: center;
+
+}
